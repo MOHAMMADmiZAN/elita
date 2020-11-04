@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Container, Row} from "react-bootstrap";
+import {Container, Row,Col} from "react-bootstrap";
 import styled from "styled-components";
 import logo from "./images/logo.png"
 
@@ -40,18 +40,19 @@ class Header extends Component {
                 <Container>
                    <Overlay>
                        <Row className='align-items-center justify-content-between'>
-                           <div className='col-lg-2'>
+                           <Col lg={'2'}>
                                <div className='logo'>
                                    <img src={logo} alt="logo.png"/>
                                </div>
-                           </div>
-                           <div className='col-lg-2'>
-                               <Button>
-                                   <Text herf="#">
-                                       Hire me
-                                   </Text>
-                               </Button>
-                           </div>
+                           </Col>
+                         <Col lg={'2'}>
+                             <Button>
+                                 <Text herf="#">
+                                     Hire me
+                                 </Text>
+                             </Button>
+
+                         </Col>
                        </Row>
                    </Overlay>
 

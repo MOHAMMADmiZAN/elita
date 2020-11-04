@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Container, Row} from "react-bootstrap";
+import  {Container, Row,Col} from "react-bootstrap";
 import styled from "styled-components";
 import shape from "./images/bsh1.png"
 import pro from "./images/pro.png"
@@ -41,12 +41,13 @@ class Banner extends Component {
                 <Container>
                   <Overlay>
                       <Row>
-                          <div className={'col-lg-6'}>
-                            <Prodiv>
-                                <img src={pro} alt="pro"/>
-                            </Prodiv>
+                          <Col lg={'6'}>
+                              <Prodiv>
+                                  <img src={pro} alt="pro"/>
+                              </Prodiv>
                               <Shape src={shape} alt={'shape'}/>
-                          </div>
+                          </Col>
+
 
                       </Row>
                   </Overlay>
