@@ -28,7 +28,7 @@ const Wrapper = styled.section`
 
 `;
 const Overlay = styled.div`
- background:rgba(217,217,217,0.1);
+background: rgba(65,69,118,0.2);
  padding: 50px;
 `;
 

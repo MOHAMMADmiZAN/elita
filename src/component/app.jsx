@@ -7,7 +7,7 @@ import styled from "styled-components";
 
 
 const Wrapper = styled.section`
-background: rgba(31, 35, 80,10);
+background: #171a3c;
 `;
 const Wrapper2 = styled.section`
  background: url(${background});
